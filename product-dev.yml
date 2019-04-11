@@ -4,11 +4,11 @@ spring:
     username: tiny
     password: QWERDF123456
     url: jdbc:mysql://lzlz.site:3306/tiny-service?characterEncoding=utf-8&useSSL=false
-#  rabbitmq:
-#    host: 127.0.0.1
-#    port: 5672
-#    username: guest
-#    password: guest
+  rabbitmq:
+    host: lzlz.site
+    port: 5672
+    username: admin
+    password: admin
   redis:
     host: lzlz.site
     port: 36379
