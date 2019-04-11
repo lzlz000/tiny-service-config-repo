@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: tiny
+    password: QWERDF123456
+    url: jdbc:mysql://lzlz.site:3306/tiny-service?characterEncoding=utf-8&useSSL=false
+#  rabbitmq:
+#    host: 127.0.0.1
+#    port: 5672
+#    username: guest
+#    password: guest
+  redis:
+    host: lzlz.site
+    port: 36379
+    password: QWERDF595182653QWERDF595182653
+  jpa:
+    show-sql: true
