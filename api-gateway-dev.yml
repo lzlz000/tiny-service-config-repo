@@ -4,14 +4,14 @@ zuul:
   routes:
   # /myProduct/product/list -> /product/product/list
     aaaaaa:
-      path: /myProduct/**
+      path: /product-alias/**
       serviceId: product
       sensitiveHeaders:
   #简洁写法
 #    product: /myProduct/**
   #排除某些路由
   ignored-patterns:
-    - /**/product/listForOrder 
+    - /config/** 
 management:
   security:
     enabled: false    
